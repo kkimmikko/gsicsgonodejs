@@ -44,9 +44,9 @@ socket.on('map:round', (msg) => {
 
 ```
 
-## Configuring the Dota 2 Client
+## Configuring the CS:GO Client
 
-To configure the Dota client to report gamestate, you need to add a config file in `steamapps\common\dota 2 beta\game\csgo\cfg\`. The file must use the name pattern called `gamestate_integration_*.cfg`, for example `gamestate_integration_test.cfg`.
+To configure the CSGO client to report gamestate, you need to add a config file in `steamapps\common\dota 2 beta\game\csgo\cfg\`. The file must use the name pattern called `gamestate_integration_*.cfg`, for example `gamestate_integration_test.cfg`.
 
 The following example is included in this repository, you can copy it straight into your Dota directory to get started.
 ```
