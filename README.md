@@ -1,4 +1,4 @@
-# Node.js CSGO GSI module (using websockets)
+# Node.js CSGO GSI module
 `gsicsgonodejs` provides an socket driven interface for CSGO live GameState Integration data. When configured, the CSGO client will send messages to the `gsicsgonodejs` server, which emits an event for each attribute whenever it changes.
 
 ## Installation
