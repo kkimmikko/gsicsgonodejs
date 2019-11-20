@@ -1,4 +1,4 @@
-# Node.js CSGO GSI module (using websockets)
+# Node.js CSGO GSI module
 `gsicsgonodejs` provides an socket driven interface for CSGO live GameState Integration data. When configured, the CSGO client will send messages to the `gsicsgonodejs` server, which emits an event for each attribute whenever it changes.
 
 ## Installation
@@ -7,7 +7,6 @@
 
 ## Examples
 
-Using events
 ```javascript
 var csgogsi = require('gsicsgonodejs');
 var io = require('socket.io-client');
@@ -45,11 +44,11 @@ socket.on('map:round', (msg) => {
 
 ```
 
-## Configuring the Dota 2 Client
+## Configuring the CS:GO Client
 
-To configure the Dota client to report gamestate, you need to add a config file in `steamapps\common\dota 2 beta\game\csgo\cfg\`. The file must use the name pattern called `gamestate_integration_*.cfg`, for example `gamestate_integration_test.cfg`.
+To configure the CSGO client to report gamestate, you need to add a config file in `steamapps\common\dota 2 beta\game\csgo\cfg\`. The file must use the name pattern called `gamestate_integration_*.cfg`, for example `gamestate_integration_test.cfg`.
 
-The following example is included in this repository, you can copy it straight into your Dota directory to get started.
+The following example is included in this repository, you can copy it straight into your CSGO directory to get started.
 ```
 "Test integration v2"
 {
