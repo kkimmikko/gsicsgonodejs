@@ -7,7 +7,6 @@
 
 ## Examples
 
-Using events
 ```javascript
 var csgogsi = require('gsicsgonodejs');
 var io = require('socket.io-client');
