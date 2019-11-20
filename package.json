@@ -1,0 +1,35 @@
+{
+  "_from": "gsicsgonodejs",
+  "_id": "gsicsgonodejs@1.1.0",
+  "_inBundle": false,
+  "_location": "/gsicsgonodejs",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "gsicsgonodejs",
+    "name": "gsicsgonodejs",
+    "escapedName": "gsicsgonodejs",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "name": "gsicsgonodejs",
+  "version": "1.0.0",
+  "description": "Yet another CSGO GSI integration using Node JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kkimmikko",
+  "dependencies": {
+    "body-parser": "1.x.x",
+    "express": "4.x.x",
+    "socket.io": "^2.0.4"
+  },
+  "license": "ISC"
+}
